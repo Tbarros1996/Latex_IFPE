@@ -1,0 +1,84 @@
+%-------------------------------------------------------
+% IIIIIII   FFFFFFFFF   PPPPPP      EEEEEEE
+%   II      FF          PP   PP     EE
+%   II      FFFFFF      PPPPPP      EEEE
+%   II      FF          PP          EE
+% IIIII     FF          PP          EEEEEEE
+%--------------------------------------------------------
+
+
+% Instituto Federal de Pernambuco - Campus Recife
+% Departamento de Engenharia Mecânica
+% Desenvolvido por Thiago Barros
+% Modelo de Relatório em LaTex Para Trabalhos Acadêmicos - e Trabalho de Conclusão de Curso
+% --------------------------------------------------------------------------------------------
+
+
+% Estrutura do Documento
+
+%               Arquivo main.tex - arquivo principal com as seções de cada texto
+% 
+%             /TCC_IFPE/
+%                       /00_CONF - Contém o Arquivo de Listagem de Pacotes Para o Programa
+%                       /01_PRE - Arquivos de Elementos Pré Textuais
+%                       /02_TEXTO - Arquivos de Elementos Textuais (Intro;Fundamentação;  Metodo; Metodologia; Resultados e Conclusão)
+%                       /03_POS- Arquivos de Elementos Pós Textuais 
+%                       /04_ANEXOS - Pasta para Colocação de Arquivos para Serem Anexados
+%                       /05_BIBLIOGRAFIAS- Arquivo referencia.bib para referencias
+%                       /06_IMAGENS - Pasta Para Arquivamento de Imagens
+
+% -------------------------------------------------------------------------------------------
+
+
+\documentclass[a4paper,12pt,oneside]{article}
+
+  % Pacotes Usaodos Para a Compilação do Documento
+
+\input{00_CONF/00_pacotes}
+
+  \begin{document}
+
+    \include{00_CONF/00_titulo}
+
+    % Elementos Pré Textuais
+
+    \include{01_PRE/01_capa} % Elemento Obrigatório
+    \include{01_PRE/02_contracapa} % Elemento Obrigatório
+    \include{01_PRE/03_ficha} % Elemento Obrigatório
+    \include{01_PRE/04_aprovacao} % Elemento Obrigatório
+
+    \include{01_PRE/05_dedicatoria}  % Elemento Opcional
+    \include{01_PRE/06_agradecimentos} % Elemento Opcional
+    \include{01_PRE/07_epigrafe} % Elemento Opcional
+
+    \include{01_PRE/08_resumo} % Elemento Obrigatório
+    \include{01_PRE/09_abstract} % Elemento Obrigatório
+
+
+    \include{01_PRE/10_ilustracoes} % Elemento Opcional
+    \include{01_PRE/11_tabelas} % Elemento Opcional
+    \include{01_PRE/12_siglas} % Elemento Opcional
+    \include{01_PRE/13_simbolos} % Elemento Opcional
+
+    \include{01_PRE/14_sumario} % Elemento Obrigatório
+
+    %--------------------------------------------------------------------
+
+    % Elementos Textuais
+
+    \include{02_TEXTO/15_intro}
+    \include{02_TEXTO/16_fundam}
+    \include{02_TEXTO/17_metodo}
+    \include{02_TEXTO/18_result}
+    \include{02_TEXTO/19_consid}
+
+    % Elementos Pós Textuais
+
+    \include{03_POS/20_ref} % Elemento Opcional
+
+    %\include{03_POS/21_glosario} % Elemento Opcional
+    %\include{03_POS/22_apen}  % Elemento Opcional
+    %\include{03_POS/23_anexo} % Elemento Opcional
+    %\include{03_POS/24_indice} % Elemento Opcional
+
+  \end{document}

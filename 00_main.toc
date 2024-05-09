@@ -1,0 +1,8 @@
+\babel@toc {brazil}{}\relax 
+\contentsline {section}{\numberline {1}INTRODUÇÃO}{15}{}%
+\contentsline {section}{\numberline {2}FUNDAMENTAÇÃO TEÓRICA}{16}{}%
+\contentsline {subsection}{\numberline {2.1}BATATA}{16}{}%
+\contentsline {section}{\numberline {3}METODOLOGIA}{18}{}%
+\contentsline {section}{\numberline {4}ANÁLISE DE RESULTADOS}{19}{}%
+\contentsline {section}{\numberline {5}CONSIDERAÇÕES}{20}{}%
+\contentsline {section}{REFERÊNCIAS}{21}{}%

@@ -1,0 +1,4 @@
+PWD d:\Meus Documentos\TCC_IFPE\00_CONF
+INPUT C:\Users\tbeng\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
+INPUT d:\Meus Documentos\TCC_IFPE\00_CONF\00_pacotes.tex
+OUTPUT 00_pacotes.log
