@@ -9,7 +9,6 @@ Projeto de padronização de formato de TCC e Artigo Científico para o IFPE em 
 1. [Sobre](#sobre)
 2. [Estrutura do Projeto](#estrutura-do-projeto)
 3. [Como usar](#como-usar)
-4. [Licença](#licença)
 
 ## Sobre
 
@@ -29,7 +28,3 @@ Este repositório possui uma estrutura LaTex para criação de artigos acadêmic
 ## Como usar
 
 Faça um fork no repositário ou baixe conforme gituhb. Use o arquivo "main.tex" para adicionar ou não as seções. Cada Seção em seus respectivos diretórios possuem as partes da estrutura do texto organizadas separadamente.
-
-## Licença
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
